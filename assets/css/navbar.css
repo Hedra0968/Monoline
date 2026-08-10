@@ -1,0 +1,124 @@
+/* Mobile Menu */
+.mobile-menu {
+  display: none;
+}
+
+/* Start Navbar */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+  background-color: transparent;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  animation: navbarBackground linear both;
+  animation-timeline: scroll(root block);
+  animation-range: 0 5px;
+}
+
+header .container .navbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+header .container .navbar > ul > li > a {
+  color: #fff;
+  font-family: "Oswald", sans-serif;
+  animation: navbarText linear both;
+  animation-timeline: scroll(root block);
+  animation-range: 0 5px;
+}
+
+@keyframes navbarBackground {
+  0% {
+    background-color: transparent;
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  }
+
+  100% {
+    background-color: #fff;
+    border-bottom-color: #fff;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.12);
+  }
+}
+
+@keyframes navbarText {
+  0% {
+    color: #ffffff;
+  }
+
+  100% {
+    color: #000000;
+  }
+}
+
+header .container .navbar .logo img {
+  width: 150px;
+  height: 50px;
+  display: block;
+}
+
+header .container .navbar > ul {
+  display: flex;
+  align-items: center;
+  margin-right: 35px;
+  gap: 40px;
+  font-size: 17px;
+}
+
+header .container .navbar > ul > li {
+  position: relative;
+}
+
+header .container .navbar ul li i {
+  font-size: 12px;
+  margin-left: 6px;
+  position: absolute;
+  top: 10px;
+  transition: 0.3s;
+}
+
+header .container .navbar ul li .drop {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 220px;
+  z-index: 100000;
+  padding: 0;
+  border-top: 3px solid #ffaa17;
+  margin: 0;
+}
+
+header .container .navbar ul li .drop li {
+  font-family: "Oswald", sans-serif;
+  position: relative;
+  text-align: left;
+  padding: 10px 20px;
+  width: 220px;
+  height: auto;
+  background-color: white;
+}
+
+header .container .navbar ul li .drop li a {
+  display: block;
+  color: #000;
+  font-family: "Oswald", sans-serif;
+  font-size: 18px;
+  white-space: nowrap;
+}
+
+header .container .navbar ul li .drop li:hover {
+  background-color: #eee;
+}
+
+header .container .navbar ul li:hover .drop {
+  display: block;
+}
+
+/* End Navbar */

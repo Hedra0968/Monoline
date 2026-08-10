@@ -1,0 +1,27 @@
+/* Start Team */
+#team .team_contant {
+  width: 100%;
+  height: 100%;
+  line-height: 26px;
+  padding: 0px 12px;
+  margin-top: 160px;
+}
+
+#team .team_contant img {
+  width: 1282px;
+  height: 500px;
+  display: inline;
+  line-height: 26px;
+}
+
+#team .team_contant p {
+  width: 907px;
+  height: 96px;
+  color: #747474;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  line-height: 32px;
+  margin: 40px 194.4px 0px;
+  text-align: center;
+}
+/* End Team */

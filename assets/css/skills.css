@@ -1,0 +1,128 @@
+/* Start Skills */
+#skills {
+  background-image: url(../images/skill-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 1513px;
+  height: 598px;
+  margin: 105px 0px 80px;
+  padding: 80px 0px 0px;
+  position: relative;
+}
+
+#skills::before {
+  content: "";
+  background: #0e5ca6;
+  opacity: 0.2;
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+}
+
+#skills .skill_bg {
+  width: 526px;
+  height: 598px;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0px 10px 40px -10px #00408033;
+  margin: 0px 0px -80px;
+  padding: 70px;
+  position: absolute;
+}
+
+#skills .skill_bg .skills_contant {
+  width: 386px;
+  height: 230px;
+  line-height: 26px;
+}
+
+#skills .skill_bg .skills_contant h2 {
+  width: 386px;
+  height: 96px;
+  color: #1b2032;
+  font-family: "Oswald", sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 48px;
+  margin: 0px 0px 30px;
+}
+
+#skills .skill_bg .skills_contant p {
+  width: 386px;
+  height: 104px;
+  color: #747474;
+  font-family: "Poppins", sans-serif;
+  line-height: 26px;
+  margin: 0px 0px 30px;
+}
+
+#skills .skill_bg .skill_bar {
+  width: 356px;
+  height: 178px;
+  line-height: 26px;
+  margin: 0px 30px 0px 0px;
+}
+
+#skills .skill_bg .skill_bar .skill_bar_linear {
+  width: 356px;
+  height: 46px;
+  line-height: 26px;
+}
+
+#skills .skill_bg .skill_bar .skill_bar_linear .skill_text {
+  width: 356px;
+  height: 26px;
+  color: #747474;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  line-height: 26px;
+  margin: 25px 0px 10px;
+  text-transform: capitalize;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#skills .skill_bg .skill_bar .skill_bar_linear .bar {
+  width: 356px;
+  height: 10px;
+  background-color: #e8e8e9;
+  background-position: 0px 0px;
+  border-radius: 30px;
+  box-shadow: 0px 0px 0px 0px #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 26px;
+  margin: 0px 0px 20px;
+  text-align: center;
+}
+
+#skills .skill_bg .skill_bar .skill_bar_linear .bar .span1,
+#skills .skill_bg .skill_bar .skill_bar_linear .bar .span2,
+#skills .skill_bg .skill_bar .skill_bar_linear .bar .span3 {
+  height: 10px;
+  background-color: #ffaa17;
+  background-position: 0px 0px;
+  border-radius: 30px;
+  color: #fff;
+  line-height: 26px;
+  text-align: center;
+}
+
+#skills .skill_bg .skill_bar .skill_bar_linear .bar .span1 {
+  width: 303px;
+}
+
+#skills .skill_bg .skill_bar .skill_bar_linear .bar .span2 {
+  width: 249px;
+}
+
+#skills .skill_bg .skill_bar .skill_bar_linear .bar .span3 {
+  width: 214px;
+}
+/* End Skills */

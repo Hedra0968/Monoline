@@ -1,0 +1,72 @@
+/* Start FadeInUp */
+#fadeInUp {
+  width: 1513px;
+  height: 796px;
+  margin: 260px 0px 0px;
+  padding: 80px 0x;
+}
+
+#fadeInUp .contant_fade {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#fadeInUp .contant_fade .contant_fadeup {
+  width: 660px;
+  height: 636px;
+  padding: 50px 12px;
+}
+
+#fadeInUp .contant_fade .contant_fadeup h2 {
+  width: 636px;
+  height: 228px;
+  color: #1b2032;
+  font-family: "Oswald", sans-serif;
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 76px;
+  margin-bottom: 30px;
+}
+
+#fadeInUp .contant_fade .contant_fadeup p {
+  width: 636px;
+  height: 130px;
+  color: #747474;
+  font-family: "Poppins", sans-serif;
+  line-height: 26px;
+  margin: 0px 0px 30px;
+}
+
+#fadeInUp .contant_fade .contant_fadeup button {
+  border: 0;
+  background: transparent;
+  padding: 0;
+}
+
+#fadeInUp .contant_fade .contant_fadeup button a {
+  background: #fff;
+  border: 1.6px solid #1b2032;
+  color: #1b2032;
+  padding: 10px 30px;
+  border-radius: 30px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 800;
+  transition: 0.3s;
+  margin-top: 10px;
+  box-shadow: 0 10px 40px -10px rgba(0, 64, 128, 0.3);
+  display: inline-block;
+}
+
+#fadeInUp .contant_fade .contant_fadeup button a:hover {
+  background: #ffaa17;
+  border: 2px solid #ffaa17;
+  color: #fff;
+}
+
+#fadeInUp .contant_fade img {
+  width: 636px;
+  height: 636px;
+  display: inline;
+}
+/* End FadeInUp */

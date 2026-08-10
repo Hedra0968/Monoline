@@ -1,0 +1,93 @@
+/* Start Feature */
+#feature {
+  width: calc(100% - 30px);
+  max-width: 1320px;
+  min-height: 952px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 10px 40px -10px #00408033;
+  color: #747474;
+  line-height: 26px;
+  margin: -100px auto 80px;
+  padding: 60px;
+  position: relative;
+  z-index: 1000;
+}
+
+#feature .contant h2 {
+  width: 100%;
+  color: #1b2032;
+  font-family: "Oswald", sans-serif;
+  font-size: 54px;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 8px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+#feature .contant p {
+  width: 100%;
+  max-width: 706px;
+  color: #747474;
+  font-family: "Poppins", sans-serif;
+  line-height: 26px;
+  margin: 0 auto 50px;
+  padding: 0 10px;
+  text-align: center;
+}
+
+#feature .cards {
+  display: flex;
+  flex-wrap: wrap;
+  line-height: 26px;
+  margin: -60px;
+  padding: 60px;
+}
+
+#feature .cards .card {
+  width: 400px;
+  height: 324px;
+  background-color: #f9fcff;
+  border: 0.8px solid #eee;
+  border-radius: 5px;
+  box-shadow: 0px 0px 0px 0px #0000;
+  color: #747474;
+  line-height: 26px;
+  padding: 60px;
+  transition: 0.3s;
+}
+
+#feature .cards .card:hover {
+  background-color: #fff;
+  box-shadow: 0px 60px 60px rgba(0, 0, 0, 0.1);
+  transform: translate(0, -10px);
+}
+
+#feature .cards .card img {
+  width: 60px;
+  height: 60px;
+  color: #747474;
+  display: inline;
+  line-height: 25px;
+  margin: 0px 0px 25px;
+}
+
+#feature .cards .card h4 {
+  width: 278px;
+  height: 24px;
+  color: #1b2032;
+  font-family: "Oswald", sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  margin: 0px 0px 24px;
+}
+
+#feature .cards .card p {
+  width: 278px;
+  height: 78px;
+  color: #747474;
+  font-family: "Poppins", sans-serif;
+  line-height: 26px;
+}
+/* End Feature */

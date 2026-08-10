@@ -1,0 +1,126 @@
+/* Start Form */
+#form {
+  width: 1513px;
+  height: 787px;
+  background-color: #0e5ca6;
+  line-height: 26px;
+  padding: 80px 0px;
+}
+
+#form .form_contant {
+  width: 1320px;
+  height: 627px;
+  line-height: 26px;
+  padding: 0px 15px;
+  text-align: center;
+}
+
+#form .form_contant .form_title {
+  width: 1296px;
+  height: 125px;
+  line-height: 26px;
+  margin: 0px 0px 60px;
+  text-align: center;
+}
+
+#form .form_contant .form_title h2 {
+  width: 1296px;
+  height: 65px;
+  color: #fff;
+  font-family: "Oswald", sans-serif;
+  font-size: 54px;
+  font-weight: 600;
+  line-height: 64.8px;
+  margin: 0px 0px 8px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+#form .form_contant .form_title p {
+  width: 778px;
+  height: 52px;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  line-height: 26px;
+  margin: 0px 259.2px;
+  padding: 0px 10px;
+  text-align: center;
+}
+
+#form .form_contant form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#form .form_contant .form_inputs {
+  width: 1076px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#form .form_contant form .inp1,
+#form .form_contant form .inp2 {
+  width: 526px;
+}
+
+#form .form_contant form .inp3 {
+  width: 1076px;
+}
+
+#form .form_contant form .inp1,
+#form .form_contant form .inp2,
+#form .form_contant form .inp3 {
+  height: 70px;
+  background-color: #fff;
+  border: 0.8px solid #f6f6f6;
+  color: #1b2032;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  line-height: 27px;
+  outline: none;
+  margin: 0px 0px 20px;
+  padding: 20px;
+}
+
+#form .form_contant form textarea {
+  width: 1076px;
+  height: 204px;
+  background-color: #fff;
+  border: 0.8px solid #fff;
+  box-shadow: 0px 0px 0px 4px #0d6efd40;
+  color: #1b2032;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  line-height: 27px;
+  outline: none;
+  margin: 0px;
+  padding: 20px;
+}
+
+#form .form_contant form button {
+  width: 199px;
+  height: 53px;
+  background-color: #ffaa17;
+  border: 1.6px solid #ffaa17;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  line-height: 26px;
+  padding: 12px 40px;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+#form .form_contant form button:hover {
+  background-color: #232a34;
+  border: 1.6px solid #232a34;
+}
+
+#form .form_contant form input::placeholder,
+#form .form_contant form textarea::placeholder {
+  color: #1b2032;
+}
+/* End Form */

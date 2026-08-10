@@ -1,0 +1,101 @@
+/* Start Testimonial */
+#testimonial {
+  width: 1513px;
+  height: 693px;
+  line-height: 26px;
+  padding: 80px 0px 30px;
+}
+
+#testimonial .testmonial {
+  width: 1320px;
+  height: 583px;
+  line-height: 26px;
+  padding: 0px 12px;
+}
+
+#testimonial .testmonial .testmonial_text {
+  width: 1296px;
+  height: 125px;
+  line-height: 26px;
+  margin: 80px 0px 60px;
+  text-align: center;
+}
+
+#testimonial .testmonial .testmonial_text h2 {
+  width: 1296px;
+  height: 65px;
+  color: #1b2032;
+  font-family: "Oswald", sans-serif;
+  font-size: 54px;
+  font-weight: 600;
+  line-height: 64.8px;
+  margin: 0px 0px 8px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+#testimonial .testmonial .testmonial_text p {
+  width: 778px;
+  height: 52px;
+  color: #747474;
+  font-family: "Poppins", sans-serif;
+  line-height: 26px;
+  margin: 0px 259.2px;
+  padding: 0px 10px;
+  text-align: center;
+}
+
+#testimonial .testmonial .testmonial_all {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 18px;
+}
+
+#testimonial .testmonial .testmonial_all .testmonial_container {
+  width: 526px;
+  height: 149px;
+  line-height: 26px;
+  margin: 0px 0px 50px;
+}
+
+#testimonial .testmonial .testmonial_all .testmonial_container .testmonial_img img {
+    width: 100px;
+    border-radius: 100px;
+    margin-right: 20px;
+    float: left;
+    margin-bottom: 60px;
+}
+
+#testimonial .testmonial .testmonial_all .testmonial_container p {
+  width: 100%;
+  height: 78px;
+  color: #747474;
+  font-family: "Poppins", sans-serif;
+  line-height: 26px;
+  margin: 0px 0px 20px;
+}
+
+#testimonial .testmonial .testmonial_all .testmonial_container h4 {
+  width: 406px;
+  height: 24px;
+  color: #1b2032;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  margin: 0px 0px 8px;
+}
+
+#testimonial .testmonial .testmonial_all .testmonial_container h5 {
+  width: 406px;
+  height: 19px;
+  color: #1b2032;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19.2px;
+  margin: 0px 0px 8px;
+}
+/* End Testimonial */

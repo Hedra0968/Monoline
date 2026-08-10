@@ -1,0 +1,66 @@
+/* Start Home */
+#home {
+  background-image: url("../images/home-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  min-height: 700px;
+  padding-top: 250px;
+  position: relative;
+}
+
+#home .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+#home h2 {
+  max-width: 1296px;
+  width: 100%;
+  color: #ffffff;
+  font-family: "Oswald", sans-serif;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+}
+
+#home p {
+  width: 100%;
+  max-width: 1296px;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  margin: 10px 0 30px;
+  text-align: center;
+}
+
+#home button {
+  border: 0;
+  background: transparent;
+  padding: 0;
+}
+
+#home button a {
+  display: inline-block;
+  background-color: #ffaa17;
+  border: 1.6px solid #ffaa17;
+  color: #fff;
+  font-family: "Oswald", sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  padding: 8px 30px;
+  border-radius: 30px;
+  transition: 0.3s;
+  box-shadow: 0 10px 40px -10px #0040804d;
+}
+
+#home button a:hover {
+  background-color: transparent;
+  border-color: #fff;
+}
+/* End Home */

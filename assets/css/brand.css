@@ -1,0 +1,22 @@
+/* Start Brand */
+#brand {
+  width: 1513px;
+  height: 220px;
+  background-color: #fff;
+  line-height: 26px;
+  padding: 80px 0px 40px;
+}
+
+#brand .brand_img_contant {
+  display: flex;
+  justify-content: space-around;
+}
+
+#brand .brand_img_contant img {
+  width: 100px;
+  height: 100px;
+  display: inline;
+  line-height: 26px;
+  text-align: center;
+}
+/* End Brand */

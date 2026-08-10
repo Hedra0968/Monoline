@@ -1,0 +1,225 @@
+/* Start Portfolio */
+#portfolio {
+    width: 100%;
+    max-width: 1513px;
+    height: 1213px;
+    padding: 0px 12px;
+    margin: 0 auto;
+}
+
+#portfolio .potfolio_contant {
+  width: 1489px;
+  height: 125px;
+  margin: 0px 0px 60px;
+  text-align: center;
+}
+
+#portfolio .potfolio_contant h2 {
+  width: 1489px;
+  height: 65px;
+  color: #1b2032;
+  font-family: "Oswald", sans-serif;
+  font-size: 54px;
+  line-height: 64.8px;
+  margin: 0px 0px 8px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+#portfolio .potfolio_contant p {
+  width: 893px;
+  height: 52px;
+  color: #747474;
+  font-family: "Poppins", sans-serif;
+  line-height: 26px;
+  margin: 0px 297.763px;
+  padding: 0 10px;
+  text-align: center;
+}
+
+#portfolio .portfolio_list ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 0px 60px;
+  text-align: center;
+}
+
+#portfolio .portfolio_list ul li {
+  color: #252d35;
+  display: inline-block;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  line-height: 26px;
+  margin: 0px 3px;
+  padding: 0px 15px;
+  transition: 0.5s;
+  text-align: center;
+  text-transform: capitalize;
+  letter-spacing: 0px;
+}
+
+#portfolio .portfolio_list ul a:not(:last-child) li {
+    border-right: 2px solid #eee;
+}
+
+#portfolio .portfolio_list ul .active {
+  color: #ffaa17;
+}
+
+#portfolio .portfolio_flex {
+  width: 1513px;
+  height: 875px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px -12px;
+}
+
+#portfolio .portfolio_flex .main_flex {
+  width: 504px;
+  height: 323px;
+  margin: 0px 0px 30px;
+  padding: 0px 12px;
+  position: relative;
+}
+
+#portfolio .portfolio_flex .main_flex img {
+  width: 480px;
+  height: 323px;
+  border-radius: 5px;
+}
+
+#portfolio .portfolio_flex .main_flex a,
+#portfolio .portfolio_flex .max_flex a  {
+  width: 50px;
+  height: 50px;
+  display: none;
+  background-color: #ffaa17;
+  border-radius: 50%;
+  color: #fff;
+  font-family: "Oswald", sans-serif;
+  font-size: 14px;
+  line-height: 50px;
+  text-align: center;
+  position: absolute;
+  top: 45%;
+  left: 45%;
+  z-index: 100;
+}
+
+#portfolio .portfolio_flex .main_flex a:hover,
+#portfolio .portfolio_flex .max_flex a:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+#portfolio .portfolio_flex .main_flex h4 a:hover,
+#portfolio .portfolio_flex .max_flex h4 a:hover {
+  color: #ffaa17;
+  background-color: transparent;
+}
+
+#portfolio .portfolio_flex .max_flex {
+  width: 756px;
+  height: 492px;
+  margin: 0px 0px 30px;
+  padding: 0px 12px;
+  position: relative;
+}
+
+#portfolio .portfolio_flex .main_flex,
+#portfolio .portfolio_flex .max_flex {
+  position: relative;
+  overflow: hidden;
+}
+
+#portfolio .portfolio_flex .main_flex::before,
+#portfolio .portfolio_flex .max_flex::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 12px;
+  right: 12px;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0);
+  border-radius: 5px;
+  z-index: 1;
+  transition: 0.3s;
+  pointer-events: none;
+}
+
+#portfolio .portfolio_flex .main_flex:hover::before,
+#portfolio .portfolio_flex .max_flex:hover::before {
+  background: rgba(0, 0, 0, 0.45);
+}
+
+#portfolio .portfolio_flex .main_flex:hover a,
+#portfolio .portfolio_flex .max_flex:hover a{
+  display: inline;
+}  
+
+#portfolio .portfolio_flex .main_flex h4 a,
+#portfolio .portfolio_flex .max_flex h4 a  {
+  width: 85px;
+  height: 25px;
+  background-color: transparent;
+  color: #fff;
+  font-family: "Oswald", sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 20.4px;
+  position: absolute;
+  margin: 0 0 0 10px;
+  top: 90%;
+  left: auto;
+}
+
+#portfolio .portfolio_flex .max_flex h4 a {
+  top: 92%;
+}
+
+#portfolio .portfolio_flex .max_flex img {
+  width: 732px;
+  height: 492px;
+  border-radius: 5px;
+}
+
+#portfolio .portfolio_btn {
+    width: 1489px;
+    height: 55px;
+    margin: 30px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#portfolio .portfolio_btn button {
+  border: 0;
+  background: transparent;
+  padding: 0;
+}
+
+#portfolio .portfolio_btn button a {
+  background-color: #fff;
+  border: 1.6px solid #1b2032;
+  border-radius: 30px;
+  box-shadow: 0px 10px 40px -10px #0040804d;
+  color: #1b2032;
+  display: inline-block;
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
+  line-height: 26px;
+  margin: 20px 0px 0px;
+  transition: .3s;
+  padding: 8px 30px;
+  text-align: center;
+}
+
+#portfolio .portfolio_btn button a:hover {
+    color: rgb(255, 255, 255);
+    background: rgb(255, 170, 23);
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(255, 170, 23);
+}
+/* End Portfolio */
