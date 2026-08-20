@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TO-DO-LIST</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&family=Tajawal:wght@300;400;500;700&family=Inter:wght@400;500;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="app">
+      <!-- Change Language -->
+      <div class="lang-switch">
+        <button class="lang-btn active" data-lang="ar" id="langArBtn">
+          AR
+        </button>
+        <button class="lang-btn" data-lang="en" id="langEnBtn">EN</button>
+      </div>
+      <!-- Title + Progress Ring -->
+      <header class="app-header">
+        <div class="header-text">
+          <span class="eyebrow" data-i18n="eyebrow">لوحة المهام</span>
+          <h1 data-i18n="title">مهامي اليوم</h1>
+          <p class="subtitle" id="dateLine"></p>
+        </div>
+        <div class="progress-ring" id="progressRing">
+          <svg viewBox="0 0 120 120">
+            <circle class="ring-bg" cx="60" cy="60" r="52"></circle>
+            <circle
+              class="ring-fill"
+              id="ringFill"
+              cx="60"
+              cy="60"
+              r="52"
+            ></circle>
+          </svg>
+          <div class="ring-label">
+            <span id="ringPercent">0%</span>
+            <small data-i18n="ringDone">مكتمل</small>
+          </div>
+        </div>
+      </header>
+      <!-- Important Addition -->
+      <form class="add-form" id="addForm" autocomplete="off">
+        <input
+          type="text"
+          id="taskInput"
+          data-i18n-placeholder="inputPlaceholder"
+          placeholder="اكتب مهمة جديدة… مثال: مراجعة تقرير المشروع"
+          maxlength="120"
+          data-i18n-aria="inputAria"
+          aria-label="مهمة جديدة"
+        />
+        <select
+          id="priorityInput"
+          data-i18n-aria="priorityAria"
+          aria-label="أولوية المهمة"
+        >
+          <option value="low" data-i18n="low">منخفضة</option>
+          <option value="medium" selected data-i18n="medium">متوسطة</option>
+          <option value="high" data-i18n="high">عالية</option>
+        </select>
+        <button type="submit" class="btn-add">
+          <span data-i18n="addBtn">إضافة</span>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+            <path
+              d="M12 5v14M5 12h14"
+              stroke="currentColor"
+              stroke-width="2.4"
+              stroke-linecap="round"
+            />
+          </svg>
+        </button>
+      </form>
+      <!-- Statistics And Filters -->
+      <div class="toolbar">
+        <div class="stats">
+          <span id="remainingCount">0</span>
+          <span data-i18n="statsMiddle">مهمة متبقية من</span>
+          <span id="totalCount">0</span>
+        </div>
+        <div class="filters" role="tablist">
+          <button
+            class="filter-btn active"
+            data-filter="all"
+            data-i18n="filterAll"
+          >
+            الكل
+          </button>
+          <button
+            class="filter-btn"
+            data-filter="active"
+            data-i18n="filterActive"
+          >
+            النشطة
+          </button>
+          <button
+            class="filter-btn"
+            data-filter="completed"
+            data-i18n="filterCompleted"
+          >
+            المكتملة
+          </button>
+        </div>
+      </div>
+      <!-- Task List -->
+      <ul class="task-list" id="taskList"></ul>
+      <!-- Empty Status -->
+      <div class="empty-state" id="emptyState">
+        <svg width="56" height="56" viewBox="0 0 24 24" fill="none">
+          <path
+            d="M9 11l3 3L22 4M4 12v6a2 2 0 002 2h12a2 2 0 002-2v-2"
+            stroke="currentColor"
+            stroke-width="1.6"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+        <p id="emptyText">لا توجد مهام بعد — أضف أول مهمة لتبدأ يومك</p>
+      </div>
+      <!-- Deleted Completed -->
+      <footer class="app-footer">
+        <button
+          id="clearCompleted"
+          class="btn-clear"
+          data-i18n="clearCompleted"
+        >
+          مسح المهام المكتملة
+        </button>
+      </footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
